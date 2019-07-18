@@ -1,0 +1,16 @@
+# First, ignore everything
+*
+# Now, whitelist anything that's a directory
+!*/
+# And all the file types you're interested in.
+!*.py
+!*.png
+!LICENSE
+!*.md
+!.gitignore
+!requirements.txt
+!example.ics
+!example.csv
+!example.ods
+#ignore venv
+*venv*
